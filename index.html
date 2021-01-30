@@ -54,41 +54,49 @@
     
       <!-- Main Body of page   -->
 
-      <div class="container">    
-        <div class="row">
-            <div class="col-md-6">
+      <div class="container content">    
+      
+        <!-- Row 1   -->
+        <div class="row gx-6">
+        <!-- Column 1 of Row 1 double size  -->
+            <div class="col-md-8">
                 <h3>Summary: Latitude vs. X </h3>
                 <hr>
                 <div class="thumbnail">
-                  <img src="Resources/assets/images/Fig1.png" alt="..." class="img-thumbnail float-start" width="35%">
+                    <img class="img-thumbnail float-start" src="Resources/assets/images/Fig1.png " alt="..." width="50%" >
                 </div>
                 <p>The purpose of this project was to analyze how weather changes
                   as you get closer to the equator. To accomplish this analysis, we first pulled data from the 
                   OpenWeatherMap API to assemble a dataset on over 500 cities.  </p> 
-                      
-                  <p>After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs latitude.
-                    Factors we looked at included: temperature, cloudiness, wind speed, and humidity. This site provides 
-                    the source data and visualizations created as part of the analysis, as well as explanations and descriptions 
-                    of any trends and correlations witnessed.</p>
+                  
+                <p>After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs latitude.
+                  Factors we looked at included: temperature, cloudiness, wind speed, and humidity. This site provides 
+                  the source data and visualizations created as part of the analysis, as well as explanations and descriptions 
+                  of any trends and correlations witnessed.</p>
                 </div>
-            </div>
-        </div>
+        <!-- Column 2 of Row 1 half size -->
+            <div class="col-md-4">
+                    <h3>Visualizations</h3>
+                    <hr>
+                    <!-- New Rows with Column 2 of Row 1  -->
+                    <div class="row">
+                    <!-- Column Sizing to make two images per column on row  -->
+                        <div class="col-3 col-md-6">
+                            <a href="#"><img src="Resources/assets/images/Fig1.png" alt="..." width="100%"> </a> 
+                        </div>
+                        <div class="col-3 col-md-6">
+                            <a href="#"><img src="Resources/assets/images/Fig2.png" alt="..." width="100%"></a>
+                        </div>
+                        <div class="col-3 col-md-6">
+                            <a href="#"><img src="Resources/assets/images/Fig3.png" alt="..." width="100%"></a>
+                        </div>
 
-        <div class="col-md-6">
-          <h3>Visualizations </h3>
-          <hr>
-            <div class="col-3 col-md-6">
-              <a href="#"><img src="Resources/assets/images/Fig1.png"  alt="..."> </a> 
-            </div>
-            <div class="col-3 col-md-6">
-              <a href="#"><img src="Resources/assets/images/Fig2.png" alt="..."></a>
-            </div>
-            <div class="col-3 col-md-6">
-              <a href="#"><img src="Resources/assets/images/Fig3.png" alt="..."></a>
-            </div>
-            <div class="col-3 col-md-6">
-              <a href="#"><img src="Resources/assets/images/Fig4.png" alt="..."></a>
+                        <div class="col-3 col-md-6">
+                            <a href="#"><img src="Resources/assets/images/Fig4.png"alt="..." width="100%"></a>
+                        </div>
+                    </div>
             </div>
         </div>
+    </div>
   </body>
 </html>
