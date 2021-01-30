@@ -1,4 +1,5 @@
 
+/* Nav Bar Styling*/
 
 /* home link*/
 .home-link {
@@ -9,6 +10,11 @@
     font-weight: bold;
     font-size: 25px;
 
+}
+/* navbar spacing*/
+.navbar_style{
+    padding-top:0px;
+    padding-bottom: 0px;
 }
 
 
