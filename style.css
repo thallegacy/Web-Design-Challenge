@@ -36,3 +36,8 @@ h3{
     padding-top:20px;
     padding-bottom: 20px;
   }
+  /* thumbnail styling */
+.thmb_style{
+    width:40%;
+    padding:10px;
+  }
