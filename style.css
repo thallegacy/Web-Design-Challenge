@@ -11,7 +11,7 @@
 
 }
 /* navbar spacing*/
-.navbar_style{
+.navbar-style{
     padding-top:0px;
     padding-bottom: 0px;
 }
@@ -47,13 +47,13 @@ p{
 
 
 /* content styling*/
-.cont_style {
+.cont-style {
     padding-top: 40px;
     padding-bottom: 40px;
 
 }
 /* column styling*/
-.col_style {
+.col-style {
     background-color: #ffffff;
     padding-top: 20px;
     padding-bottom:80px;
@@ -63,8 +63,8 @@ p{
 
 
 
-/* Image styling */
-.img_style{
+/* image styling */
+.img-style{
     width:100%;
     padding-top:20px;
     padding-bottom: 20px;
@@ -72,10 +72,15 @@ p{
 
 
   /* thumbnail styling */
-.thmb_style{
+.thmb-style{
     width:50%;
     padding:10px;
   }
+
+  /* image border styling*/
+.img-border {
+    border: #4aaaa5 solid;
+}
 
 /* nav collapse bar color change*/
 @media(max-width:990px){
