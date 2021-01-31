@@ -16,6 +16,11 @@
     padding-bottom: 0px;
 }
 
+/* navbar plot*/
+}
+.navbar-plot{
+    background-color: #ffffff; 
+}
 
 
 /* body background*/
@@ -49,7 +54,7 @@ p{
 }
 /* column styling*/
 .col_style {
-    background-color: white;
+    background-color: #ffffff;
     padding-top: 20px;
     padding-bottom:80px;
     padding-left: 40px;
@@ -76,6 +81,10 @@ p{
 @media(max-width:990px){
     .navbar.bg-white{
         background-color: #4aaaa5 !important;  
+    }
+    .navbar-plot{
+        background-color: #ededed;
+        padding:10px; 
     }
 
 
