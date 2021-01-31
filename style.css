@@ -38,12 +38,32 @@ p{
     padding-bottom: 10px;
  }
 
+
+/* content styling*/
+.cont_style {
+    padding-top: 40px;
+    padding-bottom: 40px;
+
+}
+/* column styling*/
+.col_style {
+    background-color: white;
+    padding-top: 20px;
+    padding-bottom:80px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+
+
 /* Image styling */
 .img_style{
     width:100%;
     padding-top:20px;
     padding-bottom: 20px;
   }
+
+
   /* thumbnail styling */
 .thmb_style{
     width:50%;
