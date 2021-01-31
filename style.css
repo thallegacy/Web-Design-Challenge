@@ -1,12 +1,11 @@
 
-/* Nav Bar Styling*/
 
 /* home link*/
 .home-link {
     margin-left: 0px;
     padding: 10px;
     background-color: #4aaaa5; 
-    font-family: serif;
+    font-family: Georgia, serif;
     font-weight: bold;
     font-size: 25px;
 
@@ -21,3 +20,19 @@
 body{
     background-color: #ededed;
 }
+
+/* headers*/
+
+h3{
+    color: #4aaaa5;
+    font-family: Georgia, serif;
+    font-weight: bold;
+    padding-top:40px;
+}
+
+/* Image styling */
+.img_style{
+    width:100%;
+    padding-top:20px;
+    padding-bottom: 20px;
+  }
