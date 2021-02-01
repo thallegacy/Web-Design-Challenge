@@ -36,6 +36,11 @@ h3{
     font-weight: bold;
     padding-top:40px;
 }
+
+.h3-center{
+text-align: center;
+}
+
 /* paragraph styling*/
 p{
     font-family: Arial, serif;
@@ -47,13 +52,20 @@ p{
 
 
 /* content styling*/
-.cont-style {
+.cont-style{
     padding-top: 40px;
     padding-bottom: 40px;
 
 }
+/* comparsion content styling*/
+.comp-style{
+    padding-left: 40px;
+    padding-right: 40px;
+    background-color: #ffffff;
+}
+
 /* column styling*/
-.col-style {
+.col-style{
     background-color: #ffffff;
     padding-top: 20px;
     padding-bottom:80px;
@@ -78,7 +90,7 @@ p{
   }
 
   /* image border styling*/
-.img-border {
+.img-border{
     border: #4aaaa5 solid;
 }
 
